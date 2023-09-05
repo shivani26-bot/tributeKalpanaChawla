@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+html{
+  box-sizing: border-box;
+}
+body {
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("/template/559\ Space\ HD\ Wallpapers\ Background\ Images.jpg") center/cover fixed;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  color: #FCFFB2;
+  font-size: 55px;
+}
+h2{
+  text-align: justify;
+  letter-spacing: 3px;
+  color: #FFC26F;
+  /* font-size: 25px; */
+  font-size: 35px;
+  
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  
+}
+.short-info{
+  text-align: center;
+  font-size: 25px;
+ color: #FFC26F;
+}
+p {
+  text-align: justify;
+  line-height: 1.5;
+  /* color: #FFC26F; */
+  color: white;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+}
+
+li{
+  color: white;
+  font-size: 20px;
+  font-family:'Kalam', cursive;
+}
+
+
+.quote {
+  text-align: center;
+  margin-top: 20px;
+  
+  padding: 10px;
+  background-color: #FFC26F;
+  border-radius: 8px;
+  
+  font-size: 20px;
+  line-height: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.quote p{
+  color: black;
+  
+  font-weight: 700;
+}
+.quotemaster{
+  text-align: center;
+   margin-top: 10px;
+}
+.reference {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.reference a  {
+  color:#FFC26F;
+  text-decoration: underline;
+}
+.reference p{
+  font-size: 20px;
+  text-align: center;
+
+}
+a:hover{
+  filter: brightness(80%);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
